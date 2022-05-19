@@ -1,0 +1,117 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+    	<groupId>eu.arrowhead</groupId>
+    	<artifactId>application-skeleton-java-spring</artifactId>
+    	<version>4.4.0.0</version>
+  	</parent>
+	
+	<artifactId>arrowhead-application-skeleton-provider</artifactId>
+	<name>Arrowhead Provider Skeleton</name>
+	<dependencies>
+	
+		<dependency>
+			<groupId>ai.aitia</groupId>
+			<artifactId>arrowhead-application-library-java-spring</artifactId>
+			<version>4.4.0.0</version>
+		</dependency>	
+		
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		
+		 <dependency>
+                    <groupId>io.springfox</groupId>
+                    <artifactId>springfox-swagger2</artifactId>
+                    <version>2.9.2</version>
+                    <scope>compile</scope>
+             </dependency>
+             
+            <dependency>
+			   <groupId>mysql</groupId>
+			   <artifactId>mysql-connector-java</artifactId>
+			    <version>8.0.19</version>
+		    </dependency>	
+		
+	<dependency>
+		<groupId>com.pi4j</groupId>
+		<artifactId>pi4j-core</artifactId>
+		<version>1.1</version>
+		<exclusions>
+			<exclusion>
+				<groupId>com.pi4j</groupId>
+				<artifactId>pi4j-native</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
+	<dependency>
+    <groupId>com.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>4.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.pi4j</groupId>
+		<artifactId>pi4j-device</artifactId>
+		<version>1.1</version>
+	</dependency>
+	<dependency>
+		<groupId>com.jcraft</groupId>
+		<artifactId>jsch</artifactId>
+		<version>0.1.54</version>
+	</dependency>		
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-maven-plugin</artifactId>
+    			<executions>
+    				<execution>
+    					<goals>
+    						<goal>repackage</goal>
+    					</goals>
+    				</execution>
+    			</executions>
+  			</plugin>
+  			
+  			<plugin>
+	 			<artifactId>maven-resources-plugin</artifactId>
+	        	<version>3.1.0</version>
+	        	<executions>
+	          		<execution>
+	            		<id>copy-resources</id>
+	            		<phase>validate</phase>
+		            	<goals>
+		              		<goal>copy-resources</goal>
+		            	</goals>
+		            	<configuration>
+		              		<outputDirectory>${basedir}/target</outputDirectory>
+		              		<resources>
+		                		<resource>
+		                  			<directory>src/main/resources</directory>
+		                  			<includes>
+		                  				<include>application.properties</include>
+		                  			</includes>
+		                		</resource>
+		              		</resources>
+		            	</configuration>
+	          		</execution>
+	        	</executions>
+	      	</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>9</source>
+					<target>9</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+</project>

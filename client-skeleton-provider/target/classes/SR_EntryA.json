@@ -1,0 +1,176 @@
+{
+  "Factory": "Fischer-Technik",
+  "Services":[
+    {
+      "ServiceDef": "I1_Push-button_LoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "pushbutton",
+        "Location": "Loading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "I2_Push-button_LoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "pushbutton",
+        "Location": "Loading",
+        "Instance": "Two"
+      }
+    },
+    {
+      "ServiceDef": "I3_Push-button_OffLoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "pushbutton",
+        "Location": "OffLoading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "I4_Push-button_OffLoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "pushbutton",
+        "Location": "OffLoading",
+        "Instance": "Two"
+      }
+    },
+    {
+      "ServiceDef": "I5_Phototransistor_LoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "PhotoTransistor",
+        "Location": "Loading",
+        "Instance": "Two"
+      }
+    },
+    {
+      "ServiceDef": "I6_Phototransistor_MillingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "PhotoTransistor",
+        "Location": "Milling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "I7_Phototransistor_LoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "PhotoTransistor",
+        "Location": "Loading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "I8_Phototransistor_DrillingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "PhotoTransistor",
+        "Location": "Drilling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "I9_Phototransistor_OffLoadingStation",
+      "MetaData": {
+        "Device": "Sensor",
+        "DeviceType": "PhotoTransistor",
+        "Location": "OffLoading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q1_Motor-Slider_LoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Slider",
+        "Location": "Loading",
+        "Instance": "Two"
+      }
+    },
+    {
+      "ServiceDef": "Q2_Motor-Slider_LoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Slider",
+        "Location": "Loading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q3_Motor-Slider_OffLoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Slider",
+        "Location": "OffLoading",
+        "Instance": "Two"
+      }
+    },
+    {
+      "ServiceDef": "Q4_Motor-Slider_OffLoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Slider",
+        "Location": "OffLoading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q5_Motor-Conveyor-Belt_LoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "ConveyorBelt",
+        "Location": "Loading",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q6_Motor-Conveyor-Belt_MillingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "ConveyorBelt",
+        "Location": "Milling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q7_Motor_MillingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Motor",
+        "Location": "Milling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q8_Motor-Conveyor-Belt_DrillingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "ConveyorBelt",
+        "Location": "Drilling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q9_Motor_DrillingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "Motor",
+        "Location": "Drilling",
+        "Instance": "One"
+      }
+    },
+    {
+      "ServiceDef": "Q10_Motor-Conveyor-Belt_OffLoadingStation",
+      "MetaData": {
+        "Device": "Actuator",
+        "DeviceType": "ConveyorBelt",
+        "Location": "OffLoading",
+        "Instance": "One"
+      }
+    }
+  ]
+}

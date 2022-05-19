@@ -1,0 +1,192 @@
+{
+  "Factory": "Fischer technik",
+  "Locations": [
+    {
+      "Location": "Loading",
+      "Devices": [
+        {
+          "Device": "Sensor",
+          "DeviceTypes": [
+            {
+              "DeviceType": "PhotoTransistor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                },
+                {
+                  "Instance": "Two"
+                }
+              ]
+            },
+            {
+              "DeviceType": "PushButton",
+              "Instances": [
+                {
+                  "Instance": "One"
+                },
+                {
+                  "Instance": "Two"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Device": "Actuator",
+          "DeviceTypes": [
+            {
+              "DeviceType": "ConveyorBelt",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            },
+            {
+              "DeviceType": "Slider",
+              "Instances": [
+                {
+                  "Instance": "One"
+                },
+                {
+                  "Instance": "Two"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location": "Miling",
+      "Devices": [
+        {
+          "Device": "Sensor",
+          "DeviceTypes": [
+            {
+              "DeviceType": "PhotoTransistor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Device": "Actuator",
+          "DeviceTypes": [
+            {
+              "DeviceType": "ConveyorBelt",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            },
+            {
+              "DeviceType": "Motor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location": "Drilling",
+      "Devices": [
+        {
+          "Device": "Sensor",
+          "DeviceTypes": [
+            {
+              "DeviceType": "PhotoTransistor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Device": "Actuator",
+          "DeviceTypes": [
+            {
+              "DeviceType": "ConveyorBelt",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            },
+            {
+              "DeviceType": "Motor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Location": "OffLoading",
+      "Devices": [
+        {
+          "Device": "Sensor",
+          "DeviceTypes": [
+            {
+              "DeviceType": "PushButton",
+              "Instances": [
+                {
+                  "Instance": "One"
+                },
+                {
+                  "Instance": "Two"
+                }
+              ]
+            },
+            {
+              "DeviceType": "PhotoTransistor",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Device": "Actuator",
+          "DeviceTypes": [
+            {
+              "DeviceType": "Slider",
+              "Instances": [
+                {
+                  "Instance": "One"
+                },
+                {
+                  "Instance": "Two"
+                }
+              ]
+            },
+            {
+              "DeviceType": "ConveyorBelt",
+              "Instances": [
+                {
+                  "Instance": "One"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

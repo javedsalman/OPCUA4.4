@@ -1,0 +1,17 @@
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\Entity\ServiceDBObject.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\OPC_UA\OPCUAInteractions.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\SwaggerConfig.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\JSONReader.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\Provider_Constants.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\security\ProviderSecurityConfig.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\controller\Sensors.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\OPC_UA\OPCUAService.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\ProviderApplicationInitListener.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\DBQuery.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\security\ProviderAccessControlFilter.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\controller\ProviderController.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\Service\DeviceService.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\Entity\Device.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\OPC_UA\OPCUAConnection.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\security\ProviderTokenSecurityFilter.java
+C:\Users\javsal\Documents\GitHub\OPCUA4.4-main\client-skeleton-provider\src\main\java\eu\arrowhead\client\skeleton\provider\ProviderMain.java
